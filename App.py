@@ -1,7 +1,7 @@
 import streamlit as st
 import tempfile
 import os
-from PRIMEGEN import create_design
+from primer_designer import create_design
 from datetime import datetime
 
 def run_primer_design(fasta_path, primer_type, design_mode, qpcr_params, race_params):
